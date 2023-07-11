@@ -1,0 +1,76 @@
+/* ----------------------------------------FONTE----------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+/* -------------------------------RESET DA PÁGINA---------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* ---------------------------------FORMATAÇÃO DO BACKGROUND----------------------------------*/
+body {
+    background-color: #FAF7FD;
+    display: flex;
+    flex-direction: column;
+}
+
+/*-----------------------------------FORMATAÇÃO DO PERFIL------------------------------------*/
+.profile {
+    display: flex;
+}
+
+/*----------------------------------FORMATAÇÃO DA FOTO DE PERFIL-----------------------------*/
+#profile-picture {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 3px solid #BB99DD;
+    margin-top: 80px;
+}
+
+/*--------------------------------------------LINK DO PERFIL--------------------------------*/
+.profile-link {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #BB99DD;
+}
+
+/*-------------------------------------------LINKS PRIMÁRIOS---------------------------------*/
+.link-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+    gap: 10px;
+    align-items: center;
+}
+
+/*---------------------------------------FORMATAÇÃO DO BOTÃO---------------------------------*/
+.link-1-button {
+    border-radius: 10px;
+    border: 2px solid #BB99DD;
+    width: 300px;
+    height: 50px;
+}
+
+/*-----------------------------FORMATAÇÃO DO NOME DOS LINKS PRIMÁRIOS------------------------*/
+.link-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #BB99DD;
+}
+
+/*-------------------------------------LINKS SECUNDÁRIOS-------------------------------------*/
+.link-2 {
+    width: 250px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: space-around;
+}
